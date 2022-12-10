@@ -1,10 +1,7 @@
 # This example requires the 'message_content' intent. 
 from urllib import response
 from wsgiref import headers
-from tabulate import tabulate
 from table2ascii import table2ascii
-from discord.ext.commands import Bot
-from discord import Member
 import requests
 import os
 import json
