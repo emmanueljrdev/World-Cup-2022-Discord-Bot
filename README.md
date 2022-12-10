@@ -31,9 +31,8 @@ Sigamos la instalación para un correcto uso:
 #### Windows:
 
 *	Instala Python en su versión 3.10.8 (***es necesario que sea la versión antes mencionada para que el bot pueda funcionar, versiones posteriores no son soportadas aún***); ( https://www.python.org/downloads/)
-*	Como editor de código usaremos Visual Studio Code; existen muchas alternativas, sin embargo, el código está hecho en este editor.
-*	Lugo de haber instalado Visual Studio Code, es necesario instalar la extensión de SQLITE, la cual nos ayudará a ver y crear la base de datos.
-*	Es necesario instalar todas las dependencias que se encuentran al inicio del código, tales como `json`, `PIL` , entre otros.
+*	Es necesario instalar la extensión de SQLITE, la cual nos ayudará a ver y crear la base de datos.
+* **Las dependencias necesarias son las siguientes: discord.py, dotenv, table2ascii, requests, extcolors, PIL**
 *	Descarga Git para Windows, este te permitirá clonar el código más adelante; descárgalo a través de su web oficial: ( https://gitforwindows.org/).
 
 #### Descargar el código:
@@ -52,7 +51,7 @@ Posteriormente da enter en _SI_ y espera a que la descarga de todos los archivos
 
 ![imagen9final](https://user-images.githubusercontent.com/8563780/162317136-4373626f-9f7a-4d7f-880c-60e470c64d69.png)
 
-3.	Posteriormente coloca el nombre que gustes a tu **Servidor de Discord**
+3.	Posteriormente coloca un nombre que gustes a tu **Servidor de Discord**
 4.	En el menu de la izquierda selecciona la pestaña de Bot.
 
 ![imagen10final](https://user-images.githubusercontent.com/8563780/162320423-275012d1-dc06-4c10-b954-b3cd86322c2c.png)
@@ -76,25 +75,22 @@ Posteriormente da enter en _SI_ y espera a que la descarga de todos los archivos
 ![imagen14final](https://user-images.githubusercontent.com/8563780/162325239-fde9fef0-9e1f-4a39-b92e-a297c73991a7.png)
 
 
-2.	Daremos click al **URL GENERTOR** y seleccionaremos las opciones de **bot** y **applications.commands**
+2.	Daremos click al **URL GENERATOR** y seleccionaremos las opciones de **bot** y **applications.commands**
 
 ![imagen15final](https://user-images.githubusercontent.com/8563780/162325504-68045770-e28e-404c-a441-b9192f0a55a5.png)
 
 3.	Posteriormente marcaremos las casillas de los permisos, en estos seleccionaremos los mostrados a continuación.
 
-![imagen16final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen16final.png)
 
 4.	Copiaremos el **URL** que nos da al final y lo pegaremos en el navegador. Este traerá un menú de Discord y nos preguntará a que servidor queremos añadir el bot. Aquí seleccionaremos el servidor que creamos hace un momento y daremos **Confirmar**.
 
-
-![imagen17final](https://github.com/Storgaro/imagenes/blob/main/images.md/imagen17final.png)
 
 Por último, ya tenemos el bot dentro de nuestro servidor y ahora procederemos a activar sus funciones.
 
 #### Configurando el bot:
 
-Primero, deberá completar su archivo **env**. (***El bot viene con un archivo example.env, el cual deberá renombrar a env***). Aquí deberá agregar su **token del bot y la ID de cliente para el bot**.
-_Consulte el archivo ejemplo.env para obtener más información._
+Primero, deberá completar su archivo **env**. (***El bot viene con un archivo example.env, el cual deberá renombrar a .env***). Aquí deberá agregar su **token del bot y la ID de cliente para el bot**.
+_En el archivo ejemplo.env se encuentra especificado dónde debe ir el token del bot._
 
 #### Instalar las dependenciaas necesarias:
 
